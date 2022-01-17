@@ -1,0 +1,119 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.page-light {
+  background-color: #f9f6f1;
+}
+
+.wrapper {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.nav-item {
+  margin-left: 52px;
+}
+
+.nav-link {
+  color: #212121;
+  text-decoration: none;
+}
+
+.cart {
+  background-image: url("../img/cart.svg");
+  padding-left: 45px;
+  display: block;
+  width: 30px;
+  height: 30px;
+  padding-left: 50px;
+  background-repeat: no-repeat;
+  background-position: 0 center;
+}
+
+.cart-count {
+  background-color: #D7B399;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 10px;
+  font-weight: 700;
+  padding: 10px 15px;
+  display: block;
+}
+
+.btn {
+  background-color: #D7B399;
+  color: #ffffff;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px 20px;
+  margin-left: 52px;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-image: url("/img/header-net-fishing.jpg");
+  height: 400px;
+}
+
+.sale-description {
+  font-size: 30px;
+  color: #f9f6f1;
+  margin-left: 52px;
+}
+
+.sale-description-second {
+  font-size: 40px;
+  color: #ffffff;
+  margin-left: 52px;
+}
+
+.sale-title {
+  font-size: 55px;
+  color: #f9f6f1;
+  font-weight: 700;
+  margin-left: 52px;
+}
+
+.page-dark {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #212121;
+  color: #fff;
+}
+
+h2 {
+  margin: 30px;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
