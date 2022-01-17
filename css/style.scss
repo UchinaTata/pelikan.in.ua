@@ -1,0 +1,101 @@
+$accent: #D7B399;
+$dark: #212121;
+$light: #f9f6f1;
+$gray: #CBCFD4;
+$light-gray: #F4F4F4;
+$dark-gray: #8D8D8D;
+$important: #D84033;
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.page-light {
+  background-color: $light;
+}
+.wrapper {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav {
+  display:flex;
+  list-style-type: none;
+  padding-left: 0;
+  &-item {
+    margin-left: 52px;
+  }
+  &-link {
+    color: $dark;
+    text-decoration: none;
+  }
+}
+
+.cart {
+  background-image: url('../img/cart.svg');
+  padding-left: 45px;
+  display: block;
+  width: 30px;
+  height: 30px;
+  padding-left: 50px;
+  background-repeat: no-repeat;
+  background-position: 0 center;
+  &-count {
+    background-color: $accent;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 10px 15px;
+    display: block;
+  }
+}
+.btn {
+  background-color: $accent;
+  color: #ffffff;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px 20px;
+  margin-left: 52px;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  background-image: url('/img/header-net-fishing.jpg');
+  height: 400px;
+}
+.sale {
+  &-description {
+    font-size: 30px;
+    color: #f9f6f1;
+    margin-left: 52px;
+    &-second {
+      font-size: 40px;
+      color: #ffffff;
+      margin-left: 52px;
+    }
+  }
+  &-title {
+    font-size: 55px;
+    color: #f9f6f1;
+    font-weight: 700;
+    margin-left: 52px;
+  }
+}
+.page-dark {
+  display: flex;
+  justify-content: space-between;
+  background-color: $dark;
+  color: #fff;
+  
+}
+
+h2 {
+  margin: 30px;
+  text-align: center;
+}
