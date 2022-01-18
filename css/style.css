@@ -1,9 +1,10 @@
+@charset "UTF-8";
 body {
   font-family: 'Montserrat', sans-serif;
 }
 
-.page-light {
-  background-color: #f9f6f1;
+.page-light-header {
+  background-color: #f0c87d;
 }
 
 .wrapper {
@@ -29,15 +30,20 @@ body {
   display: flex;
   list-style-type: none;
   padding-left: 0;
+  padding-right: 30px;
 }
 
 .nav-item {
-  margin-left: 52px;
+  margin-left: 40px;
 }
 
 .nav-link {
   color: #212121;
   text-decoration: none;
+}
+
+.logo {
+  padding-left: 30px;
 }
 
 .cart {
@@ -46,13 +52,13 @@ body {
   display: block;
   width: 30px;
   height: 30px;
-  padding-left: 50px;
+  padding-left: 40px;
   background-repeat: no-repeat;
   background-position: 0 center;
 }
 
 .cart-count {
-  background-color: #D7B399;
+  background-color: #d0802b;
   color: #fff;
   border-radius: 50%;
   font-size: 10px;
@@ -62,7 +68,7 @@ body {
 }
 
 .btn {
-  background-color: #D7B399;
+  background-color: #d0802b;
   color: #ffffff;
   font-size: 16px;
   text-transform: uppercase;
@@ -79,6 +85,7 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   background-image: url("/img/header-net-fishing.jpg");
+  background-color: #fff;
   height: 400px;
 }
 
@@ -115,5 +122,53 @@ body {
 h2 {
   margin: 30px;
   text-align: center;
+}
+
+.page-catalog {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.page-catalog-title {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 30px;
+  font-weight: 700;
+  background-color: #fff;
+}
+
+.wrapper-catalog {
+  margin-left: 85px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 0 auto;
+}
+
+.catalog-category {
+  display: block;
+  list-style-type: none;
+  float: left;
+  /*Задаем обтекание*/
+  background: #fafafa;
+  -webkit-box-shadow: 0 0 10px rgba(213, 210, 210, 0.5);
+          box-shadow: 0 0 10px rgba(213, 210, 210, 0.5);
+  margin-top: 20px;
+  width: 200px;
+  /*Фиксируем ширину блока*/
+  height: 80px;
+  margin-right: 20px;
+  padding-top: 50px;
+  text-align: center;
+  /*Центрируем текст по горизонтали*/
+}
+
+.category-card {
+  text-decoration: none;
+  color: #212121;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
 }
 /*# sourceMappingURL=style.css.map */
